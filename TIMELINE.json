@@ -1,0 +1,2843 @@
+{
+  "synthetic": true,
+  "actualDevelopmentYear": 2026,
+  "modeledLearningYear": 2017,
+  "roadmapFit": "The modeled 2017 Kafka operations theme: partition offsets, deterministic consumer-lag summaries, and threshold diagnostics.",
+  "scenarioCommitCount": 456,
+  "scenarioCommits": [
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 0,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-01T09:09:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 1,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-01T15:04:14+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 2,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-01T20:36:15+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 3,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T09:07:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 4,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T13:10:35+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 5,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T15:24:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 6,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T17:33:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 7,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T18:29:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 8,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T19:56:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 9,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-05T16:03:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 10,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-08T17:47:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 11,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-09T08:16:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 12,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-09T15:06:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 13,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-09T19:20:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 14,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-09T21:27:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 15,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-14T12:15:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 16,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-14T15:13:34+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 17,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-14T22:36:41+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 18,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-17T18:45:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 19,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-17T22:42:37+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 20,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-18T10:25:37+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 21,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-18T18:02:41+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 22,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-18T21:57:55+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 23,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-19T10:50:24+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 24,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-19T13:52:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 25,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-19T21:24:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 26,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-22T18:03:30+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 27,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-24T14:52:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 28,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-25T11:56:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 29,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-25T19:01:42+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 30,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T08:43:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 31,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T14:50:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 32,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T19:28:17+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 33,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-31T11:44:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 34,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-31T19:06:58+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 35,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-05T09:01:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 36,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T08:54:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 37,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T11:04:12+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 38,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T14:26:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 39,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T16:48:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 40,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T19:46:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 41,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-13T11:51:38+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 42,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-17T16:27:41+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 43,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-18T09:58:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 44,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-21T08:47:24+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 45,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-21T12:44:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 46,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-21T14:52:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 47,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-24T11:36:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 48,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-25T10:27:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 49,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-25T15:38:21+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 50,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-25T19:48:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 51,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-26T09:15:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 52,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-26T16:53:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 53,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-28T14:06:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 54,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-03T09:56:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 55,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-04T08:57:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 56,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-04T14:04:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 57,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-06T16:17:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 58,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-07T10:17:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 59,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-07T18:52:57+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 60,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-11T18:17:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 61,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-12T22:05:23+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 62,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T08:27:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 63,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T10:28:49+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 64,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T13:30:55+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 65,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T17:04:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 66,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T20:40:57+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 67,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T08:04:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 68,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T09:02:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 69,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T11:37:15+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 70,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T12:44:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 71,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T13:27:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 72,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T15:43:41+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 73,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T18:38:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 74,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T20:19:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 75,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T10:16:12+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 76,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T13:15:12+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 77,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T14:00:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 78,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T16:46:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 79,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T22:54:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 80,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-20T15:12:35+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 81,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-20T21:41:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 82,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-22T14:20:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 83,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-24T12:55:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 84,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-24T20:59:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 85,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-29T18:34:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 86,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-01T18:37:58+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 87,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-02T16:31:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 88,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-02T21:47:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 89,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-05T08:50:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 90,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-05T17:01:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 91,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-05T18:42:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 92,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-05T21:28:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 93,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-05T22:25:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 94,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-06T13:24:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 95,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-06T19:35:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 96,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-06T22:23:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 97,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-07T15:53:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 98,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-07T21:04:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 99,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-09T14:00:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 100,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-11T10:58:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 101,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-13T22:10:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 102,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-14T20:43:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 103,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-17T12:42:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 104,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-17T17:23:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 105,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-22T20:39:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 106,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-22T22:46:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 107,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-25T10:12:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 108,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-28T17:54:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 109,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T08:26:30+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 110,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T10:24:34+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 111,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T13:40:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 112,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T14:32:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 113,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T19:20:12+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 114,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T20:47:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 115,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-01T13:34:02+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 116,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-02T15:21:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 117,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-02T21:52:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 118,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-03T22:52:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 119,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-05T19:03:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 120,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-07T09:04:14+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 121,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-08T09:05:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 122,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-08T15:51:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 123,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T08:01:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 124,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T09:55:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 125,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T11:16:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 126,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T17:21:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 127,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-12T21:54:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 128,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-13T18:06:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 129,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-13T21:44:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 130,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-14T08:31:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 131,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-14T14:09:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 132,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-14T17:38:55+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 133,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-14T22:59:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 134,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-16T13:47:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 135,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-16T22:25:55+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 136,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-17T11:53:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 137,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-18T22:16:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 138,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-19T22:15:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 139,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-26T15:19:49+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 140,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-27T09:12:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 141,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-27T21:08:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 142,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T08:38:24+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 143,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T09:43:44+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 144,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T10:47:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 145,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T15:47:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 146,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T21:03:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 147,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-01T11:27:42+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 148,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-04T14:24:14+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 149,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-04T18:14:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 150,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-05T16:25:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 151,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T10:56:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 152,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T12:03:49+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 153,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T14:18:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 154,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T15:14:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 155,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T16:41:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 156,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T17:27:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 157,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T18:21:37+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 158,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T19:14:21+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 159,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T21:09:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 160,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T11:15:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 161,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T12:41:49+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 162,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T13:26:47+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 163,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T14:03:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 164,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T15:27:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 165,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T16:49:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 166,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T19:17:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 167,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T20:10:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 168,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-10T19:36:09+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 169,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-11T14:21:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 170,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-12T19:59:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 171,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-13T12:33:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 172,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-14T09:38:47+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 173,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-14T12:38:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 174,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-18T08:54:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 175,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-18T16:22:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 176,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-18T21:57:12+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 177,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-19T09:53:38+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 178,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-19T12:53:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 179,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-19T14:54:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 180,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-20T09:15:44+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 181,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-20T19:12:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 182,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-21T08:35:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 183,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-21T11:54:24+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 184,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-21T14:05:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 185,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-22T17:47:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 186,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-22T22:55:21+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 187,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-25T16:05:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 188,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-29T11:18:02+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 189,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-29T15:38:31+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 190,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-29T19:09:19+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 191,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-30T18:03:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 192,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-30T22:51:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 193,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-02T12:23:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 194,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-02T19:29:31+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 195,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T09:52:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 196,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T10:54:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 197,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T12:54:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 198,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T13:07:47+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 199,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T15:24:42+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 200,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T17:23:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 201,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T19:27:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 202,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T21:04:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 203,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T22:40:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 204,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-07T11:50:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 205,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-07T19:33:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 206,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-07T22:22:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 207,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-09T15:56:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 208,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-10T14:45:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 209,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-10T22:48:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 210,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-11T18:26:38+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 211,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-12T20:34:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 212,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-14T11:02:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 213,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-14T18:05:23+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 214,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-15T13:59:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 215,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-15T15:16:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 216,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-16T08:57:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 217,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-16T20:42:09+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 218,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-16T22:12:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 219,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-18T17:35:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 220,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-19T10:18:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 221,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-19T19:07:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 222,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-22T18:32:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 223,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-22T22:06:24+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 224,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-23T09:28:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 225,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-23T17:31:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 226,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-24T16:57:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 227,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-26T18:49:15+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 228,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-29T12:13:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 229,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-31T20:36:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 230,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-01T13:27:31+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 231,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-01T16:26:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 232,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-04T12:51:38+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 233,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-04T16:53:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 234,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-07T16:09:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 235,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-11T11:43:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 236,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-14T08:08:38+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 237,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-15T16:48:15+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 238,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-16T14:10:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 239,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-20T08:02:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 240,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-20T18:37:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 241,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-20T22:39:43+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 242,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-22T14:19:27+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 243,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-24T11:22:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 244,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-24T12:57:23+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 245,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-24T18:56:44+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 246,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-25T16:41:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 247,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-25T19:01:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 248,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-26T10:21:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 249,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-27T08:41:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 250,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-27T19:04:37+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 251,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-29T08:41:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 252,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-30T15:07:02+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 253,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-30T17:35:57+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 254,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-31T08:36:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 255,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T09:22:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 256,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T10:25:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 257,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T12:58:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 258,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T13:24:34+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 259,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T15:29:48+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 260,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T17:18:09+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 261,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T18:22:50+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 262,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T20:31:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 263,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-03T11:47:53+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 264,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-05T12:53:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 265,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-05T22:35:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 266,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-07T14:30:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 267,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-08T14:59:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 268,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-08T21:14:45+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 269,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-09T16:02:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 270,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-09T22:47:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 271,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-11T10:33:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 272,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-11T18:05:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 273,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-14T10:14:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 274,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-14T13:09:34+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 275,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-14T16:32:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 276,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-14T21:43:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 277,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-15T10:47:49+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 278,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-15T12:32:44+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 279,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-15T15:45:37+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 280,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-16T12:50:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 281,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-17T18:50:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 282,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T08:29:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 283,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T10:21:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 284,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T13:24:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 285,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T14:44:58+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 286,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T18:41:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 287,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T21:21:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 288,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-22T10:58:56+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 289,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-24T21:43:09+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 290,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-26T12:17:40+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 291,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-27T10:09:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 292,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-29T14:56:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 293,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-30T21:51:39+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 294,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-05T19:36:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 295,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-06T14:58:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 296,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-08T10:06:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 297,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-08T15:20:11+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 298,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-08T20:15:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 299,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-12T20:37:09+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 300,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-13T08:42:46+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 301,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-13T21:56:01+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 302,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-17T20:11:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 303,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-17T21:38:21+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 304,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-19T17:07:22+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 305,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-20T18:14:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 306,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T11:40:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 307,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T16:15:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 308,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T19:25:34+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 309,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T21:49:05+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 310,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T22:59:14+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 311,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-27T12:11:19+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 312,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-27T22:42:42+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 313,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-30T11:41:31+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 314,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T08:40:53+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 315,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T10:56:53+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 316,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T15:57:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 317,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T18:37:33+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 318,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T20:26:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 319,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T21:44:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 320,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T08:10:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 321,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T09:12:43+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 322,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T13:57:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 323,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T19:13:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 324,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T20:56:08+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 325,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T22:30:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 326,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-04T11:46:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 327,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-04T15:30:13+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 328,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-04T22:46:06+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 329,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-08T14:22:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 330,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-09T09:41:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 331,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-09T15:25:53+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 332,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-09T22:00:02+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 333,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-10T08:48:18+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 334,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-10T16:22:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 335,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-10T17:55:52+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 336,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-11T20:48:03+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 337,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-13T16:03:58+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 338,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-15T10:46:15+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 339,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-15T17:44:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 340,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-20T11:05:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 341,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-22T08:44:43+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 342,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-22T11:13:54+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 343,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-22T20:20:47+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 344,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-23T12:57:16+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 345,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-24T15:36:10+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 346,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-26T08:37:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 347,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-26T13:35:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 348,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-26T17:33:04+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 349,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-26T22:41:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 350,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-29T18:05:20+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 351,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-02T12:11:25+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 352,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-07T13:51:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 353,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-08T12:22:00+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 354,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-09T13:15:59+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 355,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-09T19:20:32+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 356,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-12T10:26:30+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 357,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-12T12:33:47+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 358,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-13T13:16:53+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 359,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-15T08:00:07+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 360,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-15T20:45:26+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 361,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-16T14:13:17+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 362,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-17T18:21:29+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 363,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-18T16:59:44+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 364,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-25T08:39:51+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 365,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-25T17:48:36+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 366,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-28T12:58:28+00:00"
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 367,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-02T13:12:28+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 368,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-09T19:47:12+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 369,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-18T14:57:34+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 370,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-18T21:14:26+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 371,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T13:02:12+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 372,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T20:28:19+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 373,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-01-28T21:53:29+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 374,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T09:10:23+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 375,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T16:28:47+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 376,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-10T17:58:03+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 377,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-17T15:47:58+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 378,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-18T10:55:29+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 379,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-21T17:29:53+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 380,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-02-25T12:30:37+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 381,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-16T12:37:16+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 382,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T15:32:23+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 383,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T16:52:32+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 384,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-17T20:06:18+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 385,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T10:39:06+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 386,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T10:56:44+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 387,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-18T17:36:26+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 388,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T10:57:33+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 389,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T12:22:46+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 390,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-03-19T21:14:06+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 391,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-02T09:32:16+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 392,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-02T11:28:01+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 393,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-06T16:03:07+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 394,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-07T16:28:56+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 395,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-17T15:17:06+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 396,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T17:45:00+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 397,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-04-30T17:50:11+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 398,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T17:35:14+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 399,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-09T17:46:20+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 400,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-14T16:37:22+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 401,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-27T19:15:43+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 402,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-05-30T16:38:03+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 403,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T11:10:44+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 404,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T14:34:30+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 405,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-07T19:23:28+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 406,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T14:53:09+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 407,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-08T17:30:50+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 408,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-19T12:31:52+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 409,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-06-19T14:06:35+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 410,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T18:29:00+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 411,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-04T21:03:44+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 412,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-10T10:54:10+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 413,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-15T09:25:55+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 414,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-18T11:52:24+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 415,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-22T17:27:34+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 416,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-07-22T19:14:45+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 417,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-14T21:22:24+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 418,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-16T18:52:00+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 419,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-26T20:16:30+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 420,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-27T16:09:42+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 421,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-08-31T15:30:12+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 422,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T14:14:37+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 423,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T16:57:12+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 424,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T20:28:08+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 425,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-02T21:03:11+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 426,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-05T17:28:49+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 427,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-09T18:54:05+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 428,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-14T13:33:16+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 429,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-15T15:48:31+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 430,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-18T18:46:42+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 431,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T09:32:53+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 432,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T12:07:21+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 433,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-19T12:42:13+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 434,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-22T10:24:45+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 435,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-09-30T18:33:34+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 436,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-05T13:44:52+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 437,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-08T10:08:43+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 438,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T13:45:11+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 439,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-10-23T18:09:56+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 440,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T13:10:13+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 441,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T20:41:13+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 442,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-02T21:40:49+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 443,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-03T09:49:24+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 444,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-04T15:38:34+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 445,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-09T12:02:45+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 446,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-09T15:18:18+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 447,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-10T10:53:14+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 448,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-14T19:30:00+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 449,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-15T18:51:07+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 450,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-19T20:08:07+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 451,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-11-22T20:41:53+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 452,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-02T16:16:33+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 453,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-11T19:09:37+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 454,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-15T16:09:02+00:00",
+      "supplemental": true
+    },
+    {
+      "repository": "consumer-lag-inspector",
+      "fixtureIndex": 455,
+      "year": 2017,
+      "scenarioAuthorDate": "2017-12-25T11:29:58+00:00",
+      "supplemental": true
+    }
+  ],
+  "committerTimeline": {
+    "synthetic": true,
+    "modeledYears": [
+      2017
+    ],
+    "actualPresentationUpdateAt": "2026-11-05T13:19:47.798358+00:00",
+    "allAuthorHeadersPreserved": true,
+    "fixtureCommittersMatchIllustrativeAuthorDates": true
+  }
+}
