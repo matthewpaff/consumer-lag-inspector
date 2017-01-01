@@ -1,0 +1,1 @@
+{"description": "reject booleans as partition numbers", "expected_error": true, "id": "lag-0000", "input": {"partitions": [{"committed": 200, "high_watermark": 200, "partition": true, "topic": "reviews-0"}], "warn_at": 10}}
