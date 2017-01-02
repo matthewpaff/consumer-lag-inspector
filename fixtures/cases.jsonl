@@ -2,3 +2,4 @@
 {"description": "reject negative committed offsets", "expected_error": true, "id": "lag-0001", "input": {"partitions": [{"committed": -1, "high_watermark": 300, "partition": 0, "topic": "reviews-1"}], "warn_at": 10}}
 {"description": "reject consumer offsets beyond the supplied watermark", "expected_error": true, "id": "lag-0002", "input": {"partitions": [{"committed": 401, "high_watermark": 400, "partition": 0, "topic": "reviews-2"}], "warn_at": 10}}
 {"description": "reject duplicate topic and partition pairs", "expected_error": true, "id": "lag-0003", "input": {"partitions": [{"committed": 500, "high_watermark": 500, "partition": 0, "topic": "reviews-3"}, {"committed": 500, "high_watermark": 500, "partition": 0, "topic": "reviews-3"}], "warn_at": 10}}
+{"description": "reject blank topic names", "expected_error": true, "id": "lag-0004", "input": {"partitions": [{"committed": 600, "high_watermark": 600, "partition": 0, "topic": "   "}], "warn_at": 10}}
