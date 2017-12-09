@@ -352,3 +352,4 @@
 {"description": "reject duplicate topic and partition pairs", "expected_error": true, "id": "lag-0351", "input": {"partitions": [{"committed": 35300, "high_watermark": 35300, "partition": 0, "topic": "reviews-351"}, {"committed": 35300, "high_watermark": 35300, "partition": 0, "topic": "reviews-351"}], "warn_at": 10}}
 {"description": "reject blank topic names", "expected_error": true, "id": "lag-0352", "input": {"partitions": [{"committed": 35400, "high_watermark": 35400, "partition": 0, "topic": "   "}], "warn_at": 10}}
 {"description": "reject negative lag warning thresholds", "expected_error": true, "id": "lag-0353", "input": {"partitions": [{"committed": 35500, "high_watermark": 35500, "partition": 0, "topic": "reviews-353"}], "warn_at": -1}}
+{"description": "summarize an empty partition collection", "expected": {"partitions": [], "topics": [], "total_lag": 0, "warning_partitions": 0}, "id": "lag-0354", "input": {"partitions": [], "warn_at": 10}}
